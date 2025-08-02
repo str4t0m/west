@@ -314,7 +314,7 @@ below.
 
         tempdir: Path = west_dir / 'manifest-tmp'
         if tempdir.is_dir():
-            self.dbg('removing existing temporary manifest directory', tempdir)
+            self.dbg('removing existing temporary manifest directory xt', tempdir)
             shutil.rmtree(tempdir)
 
         # Test that we can rename and delete directories. For the vast
