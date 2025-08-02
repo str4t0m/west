@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - '**.py'
+  push:
+    branches: [ "actions_test", "main", "v*-branch" ]
 
 permissions:
   contents: read
